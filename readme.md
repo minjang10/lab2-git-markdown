@@ -23,6 +23,9 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
+   ```
+   git clone https://github.com/minjang10/lab2-git-markdown.git
+   ```
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
@@ -38,13 +41,24 @@ tasks are comparable.  Here are the tasks:
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
    
+   ```
+    M readme.md
+   ?? books.md
+   ```
+   
    Explain, in plain text, what does it mean.
+   
+   This means that I made a change to the readme markdown file, and that I added a new file that was not in the git repo called books.md
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
 
+  ```
+  git add books.md readme.md
+  ```
+  
 7. Was your add successful?  Check status again!  Explain what do you
    see.
    
